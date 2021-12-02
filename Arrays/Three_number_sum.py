@@ -1,13 +1,18 @@
 ''' 
-Brute Force Approach: We can use three for loops and scan through the whole array three times to find and check all possible combinations of numbers which
+Difficulty Level: Medium.
+Time Spent: Approximately 1 hour
+
+
+#########         Brute Force Approach           #########
+We can use three for loops and scan through the whole array three times to find and check all possible combinations of numbers which
 gives us the targetSum.
+
 Time complexity: Time Complexity of this solution is O(n^3)
 Space Complexity: O(n) | which we used to create the new array of triplets. 
 
-'''
 
-'''
-Optimal Solution: 
+
+#########        Optimal Solution               #########
 Here we used two pointer technique. First we sort the array in ascending order. Then, we pick a number using for loops and two pointer. The first pointer will
 point to the next number of the number and the second pointer will point to the last number of the array. We can find three scenarios:
   
