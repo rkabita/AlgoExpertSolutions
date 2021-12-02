@@ -39,7 +39,7 @@ def threeNumberSum(array, targetSum):
 				left += 1
 			elif currentSum > targetSum:
 				right -= 1
-	return triplet
+    return triplet
 
 
 
